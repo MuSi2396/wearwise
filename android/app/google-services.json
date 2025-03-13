@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "645235231624",
+    "project_id": "wearwise25",
+    "storage_bucket": "wearwise25.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645235231624:android:0c6f12b29f20c0fb3d083d",
+        "android_client_info": {
+          "package_name": "com.example.wearwise"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBtc_GyrBCQJwb_guHyH3v6s1sGu9Ai1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

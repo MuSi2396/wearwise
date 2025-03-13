@@ -1,0 +1,38 @@
+plugins {
+    id "com.android.application"
+    id "com.google.gms.google-services"  // Firebase
+    id "org.jetbrains.kotlin.android"  // Updated Kotlin Plugin
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+android {
+    namespace = "com.example.wearwise"
+    compileSdk = 34  // Update to latest SDK
+
+    defaultConfig {
+        applicationId "com.example.wearwise"
+        minSdkVersion 23
+        targetSdkVersion 34  // Match with compileSdk
+        versionCode 1
+        versionName "1.0"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17  // Use Java 17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.debug
+        }
+    }
+}
+
+flutter {
+    source = "../.."  // Adjust the path to your Flutter SDK directory
+}
